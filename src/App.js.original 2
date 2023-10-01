@@ -1,0 +1,18 @@
+import React from 'react';
+import CarouselComponent from './carousel';
+import CardSection from './CardSection';
+import CardModel from './CardModel';
+import './App.css';
+
+const App = () => {
+  return (
+    <div className="App">
+      <CarouselComponent />
+      <CardSection />
+      <CardModel />
+    </div>
+  
+  );
+};
+
+export default App;

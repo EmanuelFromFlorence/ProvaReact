@@ -1,0 +1,225 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+  display: flex;
+  height: 80px;
+}
+nav {
+display: flex;
+width:100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+nav ul li {
+  list-style: none;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.carousel .thumb {
+    /* Remove border */
+    border: none;
+    /* Add border radius */
+    border-radius: 14px;
+    padding: 2px;
+}
+
+.carousel .thumb:focus {
+    /* Remove border */
+    border: none;
+    outline: none;
+}
+
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+    /* Remove border */
+    border: none;
+}
+
+.carousel-root .thumbs-wrapper ul{
+    padding-left:0px;
+   }
+
+   /* Thumbs wrapper */
+.carousel-root .carousel .thumbs-wrapper{
+    box-shadow:none;
+    transform:translatex(0px) translatey(0px);
+   }
+   
+   /* List Item */
+   .thumbs-wrapper .thumbs li{
+    box-shadow:0px 0px 27px -17px rgba(0,0,0,0.44);
+    border-top-left-radius:14px;
+    overflow:visible;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    filter: brightness(1.56) contrast(1.11);
+   }
+   
+   /* Image */
+   .thumbs .thumb img{
+    box-shadow:0px 0px 14px -3px rgba(0,0,0,0.45);
+    border-top-left-radius:14px;
+    border-top-right-radius:14px;
+    border-bottom-left-radius:14px;
+    border-bottom-right-radius:14px;
+   }
+   
+   
+
+.card-section .card img{
+    width:316px;
+    height:388px;
+    border-top-left-radius:14px;
+    border-top-right-radius:14px;
+    border-bottom-left-radius:14px;
+    border-bottom-right-radius:14px;
+    box-shadow:-1px 0px 15px 1px rgba(0,0,0,0.62);
+    
+   }
+
+   .App .card-section .card{
+    padding-left:15px;
+    padding-right:15px;
+   }
+
+   #root .App .card-section{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:0px;
+    position:relative;
+    align-items:normal;
+    justify-content:center;
+   }
+.App-link {
+  color: #61dafb;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  .menu a:hover {
+    color: #000;
+    background-color: #ddd;
+  }
+  
+
+/* App.css */
+
+
+  
+
+
+/* Footer.css */
+
+footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 5;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  footer div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer a {
+    margin: 0 10px;
+  }
+  
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-icon {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  /* Footer */
+.App main footer{
+    border-top-left-radius:14px;
+    border-top-right-radius:14px;
+    border-bottom-left-radius:14px;
+    border-bottom-right-radius:14px;
+    width:300px;
+    overflow:visible;
+    right:0px;
+    display:inline-block;
+   }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
